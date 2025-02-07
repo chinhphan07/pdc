@@ -1,2 +1,31 @@
-[InternetShortcut]
-URL=https://github.com/Lamo-7/dchinh/blob/main/about-video.html
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Giới thiệu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Video Giới thiệu</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="about-video.html">Video</a></li>
+                <li><a href="about-photo.html">Ảnh</a></li>
+                <li><a href="contact.html">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="video-intro">
+        <h2>Video Giới thiệu</h2>
+        <div class="content">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FYiRNDdPe5w?si=mdxnidSTBOk3yRVy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> Trình duyệt của bạn không hỗ trợ video.</iframe>
+        </div>
+    </section>
+
+</body>
+</html>
